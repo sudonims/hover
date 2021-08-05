@@ -1,4 +1,4 @@
-module github.com/go-flutter-desktop/hover
+module github.com/sudonims/hover
 
 go 1.13
 
