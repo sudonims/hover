@@ -300,19 +300,20 @@ func ValidateOrUpdateEngine(targetOS, cachePath, requiredEngineVersion string, m
 		}
 	} else {
 		file := ""
+		engineDownloadURL := ""
 		switch targetOS {
 		case "linux":
 			file += "linux"
 			file += fmt.Sprintf("_x64-host_%s.zip", mode.Name)
-			engineDownloadURL := fmt.Sprintf("https://github.com/flutter-rs/engine-builds/releases/download/f-%s/%s", requiredEngineVersion, file)
+			engineDownloadURL += fmt.Sprintf("https://github.com/flutter-rs/engine-builds/releases/download/f-%s/%s", requiredEngineVersion, file)
 		case "darwin":
 			file += "macosx"
 			file += fmt.Sprintf("_x64-host_%s.zip", mode.Name)
-			engineDownloadURL := fmt.Sprintf("https://github.com/flutter-rs/engine-builds/releases/download/f-%s/%s", requiredEngineVersion, file)
+			engineDownloadURL += fmt.Sprintf("https://github.com/flutter-rs/engine-builds/releases/download/f-%s/%s", requiredEngineVersion, file)
 		case "windows":
 			file += "windows"
 			file += fmt.Sprintf("_x64-host_%s.zip", mode.Name)
-			engineDownloadURL := fmt.Sprintf("https://github.com/flutter-rs/engine-builds/releases/download/f-fcbb4cb498dea49ad77a2f1f8b37853d96637973/%s", file)
+			engineDownloadURL += fmt.Sprintf("https://github.com/flutter-rs/engine-builds/releases/download/f-fcbb4cb498dea49ad77a2f1f8b37853d96637973/%s", file)
 		}
 		
 		
