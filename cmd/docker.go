@@ -9,11 +9,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/go-flutter-desktop/hover/cmd/packaging"
-	"github.com/go-flutter-desktop/hover/internal/build"
-	"github.com/go-flutter-desktop/hover/internal/log"
-	"github.com/go-flutter-desktop/hover/internal/logstreamer"
-	"github.com/go-flutter-desktop/hover/internal/version"
+	"github.com/sudonims/hover/cmd/packaging"
+	"github.com/sudonims/hover/internal/build"
+	"github.com/sudonims/hover/internal/log"
+	"github.com/sudonims/hover/internal/logstreamer"
+	"github.com/sudonims/hover/internal/version"
 )
 
 func dockerHoverBuild(targetOS string, packagingTask packaging.Task, buildFlags []string, vmArguments []string) {

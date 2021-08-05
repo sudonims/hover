@@ -12,16 +12,16 @@ import (
 	"github.com/otiai10/copy"
 	"github.com/spf13/cobra"
 
-	"github.com/go-flutter-desktop/hover/cmd/packaging"
-	"github.com/go-flutter-desktop/hover/internal/build"
-	"github.com/go-flutter-desktop/hover/internal/config"
-	"github.com/go-flutter-desktop/hover/internal/darwinhacks"
-	"github.com/go-flutter-desktop/hover/internal/enginecache"
-	"github.com/go-flutter-desktop/hover/internal/fileutils"
-	"github.com/go-flutter-desktop/hover/internal/log"
-	"github.com/go-flutter-desktop/hover/internal/pubspec"
-	internalVersion "github.com/go-flutter-desktop/hover/internal/version"
-	"github.com/go-flutter-desktop/hover/internal/versioncheck"
+	"github.com/sudonims/hover/cmd/packaging"
+	"github.com/sudonims/hover/internal/build"
+	"github.com/sudonims/hover/internal/config"
+	"github.com/sudonims/hover/internal/darwinhacks"
+	"github.com/sudonims/hover/internal/enginecache"
+	"github.com/sudonims/hover/internal/fileutils"
+	"github.com/sudonims/hover/internal/log"
+	"github.com/sudonims/hover/internal/pubspec"
+	internalVersion "github.com/sudonims/hover/internal/version"
+	"github.com/sudonims/hover/internal/versioncheck"
 )
 
 var dotSlash = string([]byte{'.', filepath.Separator})

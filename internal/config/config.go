@@ -9,9 +9,9 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/go-flutter-desktop/hover/internal/androidmanifest"
-	"github.com/go-flutter-desktop/hover/internal/build"
-	"github.com/go-flutter-desktop/hover/internal/log"
+	"github.com/sudonims/hover/internal/androidmanifest"
+	"github.com/sudonims/hover/internal/build"
+	"github.com/sudonims/hover/internal/log"
 )
 
 // BuildTargetDefault Default build target file
@@ -91,7 +91,7 @@ func GetConfig() Config {
 			if os.IsNotExist(errors.Cause(err)) {
 				// TODO: Add a solution for the user. Perhaps we can let `hover
 				// init` write missing files when ran on an existing project.
-				// https://github.com/go-flutter-desktop/hover/pull/121#pullrequestreview-408680348
+				// https://github.com/sudonims/hover/pull/121#pullrequestreview-408680348
 				log.Warnf("Missing config: %v", err)
 				return
 			}

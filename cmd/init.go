@@ -7,11 +7,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/go-flutter-desktop/hover/internal/build"
-	"github.com/go-flutter-desktop/hover/internal/config"
-	"github.com/go-flutter-desktop/hover/internal/fileutils"
-	"github.com/go-flutter-desktop/hover/internal/log"
-	"github.com/go-flutter-desktop/hover/internal/pubspec"
+	"github.com/sudonims/hover/internal/build"
+	"github.com/sudonims/hover/internal/config"
+	"github.com/sudonims/hover/internal/fileutils"
+	"github.com/sudonims/hover/internal/log"
+	"github.com/sudonims/hover/internal/pubspec"
 )
 
 func init() {

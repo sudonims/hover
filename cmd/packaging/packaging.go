@@ -3,7 +3,7 @@ package packaging
 import (
 	"bytes"
 	"fmt"
-	"github.com/go-flutter-desktop/hover/internal/pubspec"
+	"github.com/sudonims/hover/internal/pubspec"
 	"io/ioutil"
 	"os"
 	"os/exec"
@@ -14,10 +14,10 @@ import (
 
 	"github.com/otiai10/copy"
 
-	"github.com/go-flutter-desktop/hover/internal/build"
-	"github.com/go-flutter-desktop/hover/internal/config"
-	"github.com/go-flutter-desktop/hover/internal/fileutils"
-	"github.com/go-flutter-desktop/hover/internal/log"
+	"github.com/sudonims/hover/internal/build"
+	"github.com/sudonims/hover/internal/config"
+	"github.com/sudonims/hover/internal/fileutils"
+	"github.com/sudonims/hover/internal/log"
 )
 
 var packagingPath = filepath.Join(build.BuildPath, "packaging")

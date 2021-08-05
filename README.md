@@ -15,16 +15,16 @@ Run `go version` and make sure that your Go version is 1.13 or higher.
 Then install hover by running this in your home directory:
 
 ```bash
-GO111MODULE=on go get -u -a github.com/go-flutter-desktop/hover
+GO111MODULE=on go get -u -a github.com/sudonims/hover
 ```
 Or windows:
 ```
 set GO111MODULE=on
-go get -u -a github.com/go-flutter-desktop/hover
+go get -u -a github.com/sudonims/hover
 ```
 Or for powershell:
 ```powershell
-$env:GO111MODULE="on"; go get -u -a github.com/go-flutter-desktop/hover
+$env:GO111MODULE="on"; go get -u -a github.com/sudonims/hover
 ```
 Make sure the hover binary is on your `PATH` (defaults are `$GOPATH/bin` or `$HOME/go/bin`)
 

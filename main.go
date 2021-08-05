@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/go-flutter-desktop/hover/cmd"
+	"github.com/sudonims/hover/cmd"
 )
 
 func main() {
